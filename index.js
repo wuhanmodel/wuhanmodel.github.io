@@ -21,10 +21,10 @@ for (let i = length - 1; i > -1; i--) {
   aNode.className = i + 1;
   let imgNode = document.createElement('img');
   imgNode.src = './jpg/' + (i + 1) + '-1';
-  let txtNode = document.createElement('p');
-  txtNode.innerHTML = text.detail[i];
+  // let txtNode = document.createElement('p');
+  // txtNode.innerHTML = text.detail[i];
   aNode.appendChild(imgNode);
-  aNode.appendChild(txtNode);
+  // aNode.appendChild(txtNode);
   aNode.onclick = function () {
     childNodes = detail_imgs.childNodes;
     for (let i = childNodes.length - 1; i > -1; i--) {
