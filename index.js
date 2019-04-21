@@ -27,8 +27,8 @@ for (let i = length - 1; i > -1; i--) {
   aNode.appendChild(imgNode);
   aNode.onclick = function () {
     let ID = this.className;
-    pictures[0].src = './jpg/' + ID + '-1';
-    pictures[1].src = './jpg/' + ID + '-2';
+    pictures[0].src = './jpg/' + ID + '-2';
+    pictures[1].src = './jpg/' + ID + '-1';
     detail.style.display = 'block';
   }
   main.appendChild(aNode);
